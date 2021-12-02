@@ -1,0 +1,1773 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/user/ontologies/2021/8/untitled-ontology-12"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/user/ontologies/2021/8/untitled-ontology-12">
+    <Prefix name="" IRI="http://www.semanticweb.org/user/ontologies/2021/8/untitled-ontology-12"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Card"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Chemistry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Child_Book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cleaner"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Comic_Book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Educational_Book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Humanitarian_Sciences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Library"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Library_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Literature_Book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Math"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Medical_Sciences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Natural_Sciences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Novel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Offices"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PC_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#People"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Poetry_Book"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Postgraduate_Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Professors"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Secretary"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Social_Sciences"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Students"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Study_Area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Toilets"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Undergraduate_Student"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Visitors"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Are_Part_of"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Are_Polite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Belongs_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Check_Card"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Dont_Work_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_Less_Copies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Has_More_Copies"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Lent_to"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Owns"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Person_Is"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Positioned_in"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Work_in_Cleaner"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#Work_in_Secretary"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Available"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Book_Info"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Capacity"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Card_Info"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Card_Number"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Expire_Date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#ID"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Last_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Library_Info"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Library_Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Library_tel"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Number_of_Copies"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Owner"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Personal_Info"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Publishing_Year"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Staff_Info"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Visitors_Info"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Work_Code"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Writer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Book1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Book10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Book2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Book3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Book4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Book5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Book6"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Book7"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Book8"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Book9"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Card_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Card_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Card_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Card_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Card_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cleaner1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LA1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Library1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Office1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PC1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proff1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Proff2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SA1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Secretary1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Student1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Student2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Student3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#WC1"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Book"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Card"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Chemistry"/>
+        <Class IRI="#Natural_Sciences"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Child_Book"/>
+        <Class IRI="#Book"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cleaner"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Comic_Book"/>
+        <Class IRI="#Book"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Educational_Book"/>
+        <Class IRI="#Book"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Humanitarian_Sciences"/>
+        <Class IRI="#Educational_Book"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Library"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Library_Area"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Literature_Book"/>
+        <Class IRI="#Novel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Math"/>
+        <Class IRI="#Natural_Sciences"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Medical_Sciences"/>
+        <Class IRI="#Educational_Book"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Natural_Sciences"/>
+        <Class IRI="#Educational_Book"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Novel"/>
+        <Class IRI="#Book"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Offices"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PC_Area"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#People"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physics"/>
+        <Class IRI="#Natural_Sciences"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Poetry_Book"/>
+        <Class IRI="#Novel"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Postgraduate_Student"/>
+        <Class IRI="#Students"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Professors"/>
+        <Class IRI="#Visitors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Secretary"/>
+        <Class IRI="#Staff"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Social_Sciences"/>
+        <Class IRI="#Educational_Book"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Staff"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Students"/>
+        <Class IRI="#Visitors"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Study_Area"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Toilets"/>
+        <Class IRI="#Library"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Undergraduate_Student"/>
+        <Class IRI="#Students"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Visitors"/>
+        <Class IRI="#People"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Child_Book"/>
+        <NamedIndividual IRI="#Book1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Poetry_Book"/>
+        <NamedIndividual IRI="#Book10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Comic_Book"/>
+        <NamedIndividual IRI="#Book2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Humanitarian_Sciences"/>
+        <NamedIndividual IRI="#Book3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Medical_Sciences"/>
+        <NamedIndividual IRI="#Book4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Chemistry"/>
+        <NamedIndividual IRI="#Book5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Math"/>
+        <NamedIndividual IRI="#Book6"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physics"/>
+        <NamedIndividual IRI="#Book7"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Social_Sciences"/>
+        <NamedIndividual IRI="#Book8"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Literature_Book"/>
+        <NamedIndividual IRI="#Book9"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Card"/>
+        <NamedIndividual IRI="#Card_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Card"/>
+        <NamedIndividual IRI="#Card_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Card"/>
+        <NamedIndividual IRI="#Card_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Card"/>
+        <NamedIndividual IRI="#Card_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Card"/>
+        <NamedIndividual IRI="#Card_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Cleaner"/>
+        <NamedIndividual IRI="#Cleaner1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Library_Area"/>
+        <NamedIndividual IRI="#LA1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Library"/>
+        <NamedIndividual IRI="#Library1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Offices"/>
+        <NamedIndividual IRI="#Office1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PC_Area"/>
+        <NamedIndividual IRI="#PC1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professors"/>
+        <NamedIndividual IRI="#Proff1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professors"/>
+        <NamedIndividual IRI="#Proff2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Study_Area"/>
+        <NamedIndividual IRI="#SA1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Secretary"/>
+        <NamedIndividual IRI="#Secretary1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Postgraduate_Student"/>
+        <NamedIndividual IRI="#Student1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Undergraduate_Student"/>
+        <NamedIndividual IRI="#Student2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Undergraduate_Student"/>
+        <NamedIndividual IRI="#Student3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Toilets"/>
+        <NamedIndividual IRI="#WC1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_Less_Copies"/>
+        <NamedIndividual IRI="#Book1"/>
+        <NamedIndividual IRI="#Book5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_More_Copies"/>
+        <NamedIndividual IRI="#Book1"/>
+        <NamedIndividual IRI="#Book10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Positioned_in"/>
+        <NamedIndividual IRI="#Book1"/>
+        <NamedIndividual IRI="#SA1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_Less_Copies"/>
+        <NamedIndividual IRI="#Book10"/>
+        <NamedIndividual IRI="#Book1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Lent_to"/>
+        <NamedIndividual IRI="#Book10"/>
+        <NamedIndividual IRI="#Card_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_Less_Copies"/>
+        <NamedIndividual IRI="#Book2"/>
+        <NamedIndividual IRI="#Book9"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_More_Copies"/>
+        <NamedIndividual IRI="#Book2"/>
+        <NamedIndividual IRI="#Book7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Lent_to"/>
+        <NamedIndividual IRI="#Book2"/>
+        <NamedIndividual IRI="#Card_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_Less_Copies"/>
+        <NamedIndividual IRI="#Book3"/>
+        <NamedIndividual IRI="#Book1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Positioned_in"/>
+        <NamedIndividual IRI="#Book3"/>
+        <NamedIndividual IRI="#LA1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_Less_Copies"/>
+        <NamedIndividual IRI="#Book4"/>
+        <NamedIndividual IRI="#Book8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_More_Copies"/>
+        <NamedIndividual IRI="#Book4"/>
+        <NamedIndividual IRI="#Book5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Lent_to"/>
+        <NamedIndividual IRI="#Book4"/>
+        <NamedIndividual IRI="#Card_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Positioned_in"/>
+        <NamedIndividual IRI="#Book5"/>
+        <NamedIndividual IRI="#PC1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Lent_to"/>
+        <NamedIndividual IRI="#Book6"/>
+        <NamedIndividual IRI="#Card_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_Less_Copies"/>
+        <NamedIndividual IRI="#Book7"/>
+        <NamedIndividual IRI="#Book2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_More_Copies"/>
+        <NamedIndividual IRI="#Book7"/>
+        <NamedIndividual IRI="#Book8"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Positioned_in"/>
+        <NamedIndividual IRI="#Book7"/>
+        <NamedIndividual IRI="#LA1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_Less_Copies"/>
+        <NamedIndividual IRI="#Book8"/>
+        <NamedIndividual IRI="#Book7"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_More_Copies"/>
+        <NamedIndividual IRI="#Book8"/>
+        <NamedIndividual IRI="#Book4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Lent_to"/>
+        <NamedIndividual IRI="#Book8"/>
+        <NamedIndividual IRI="#Card_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Has_More_Copies"/>
+        <NamedIndividual IRI="#Book9"/>
+        <NamedIndividual IRI="#Book2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Positioned_in"/>
+        <NamedIndividual IRI="#Book9"/>
+        <NamedIndividual IRI="#SA1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <NamedIndividual IRI="#Card_1"/>
+        <NamedIndividual IRI="#Student1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <NamedIndividual IRI="#Card_2"/>
+        <NamedIndividual IRI="#Student2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <NamedIndividual IRI="#Card_3"/>
+        <NamedIndividual IRI="#Proff1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <NamedIndividual IRI="#Card_4"/>
+        <NamedIndividual IRI="#Proff2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <NamedIndividual IRI="#Card_5"/>
+        <NamedIndividual IRI="#Student3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Are_Polite"/>
+        <NamedIndividual IRI="#Cleaner1"/>
+        <NamedIndividual IRI="#Proff1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Work_in_Cleaner"/>
+        <NamedIndividual IRI="#Cleaner1"/>
+        <NamedIndividual IRI="#LA1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Work_in_Cleaner"/>
+        <NamedIndividual IRI="#Cleaner1"/>
+        <NamedIndividual IRI="#Office1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Work_in_Cleaner"/>
+        <NamedIndividual IRI="#Cleaner1"/>
+        <NamedIndividual IRI="#PC1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Work_in_Cleaner"/>
+        <NamedIndividual IRI="#Cleaner1"/>
+        <NamedIndividual IRI="#SA1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Work_in_Cleaner"/>
+        <NamedIndividual IRI="#Cleaner1"/>
+        <NamedIndividual IRI="#WC1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Are_Part_of"/>
+        <NamedIndividual IRI="#LA1"/>
+        <NamedIndividual IRI="#Library1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Are_Part_of"/>
+        <NamedIndividual IRI="#Office1"/>
+        <NamedIndividual IRI="#Library1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Are_Part_of"/>
+        <NamedIndividual IRI="#PC1"/>
+        <NamedIndividual IRI="#Library1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Owns"/>
+        <NamedIndividual IRI="#Proff1"/>
+        <NamedIndividual IRI="#Card_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Owns"/>
+        <NamedIndividual IRI="#Proff2"/>
+        <NamedIndividual IRI="#Card_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Are_Part_of"/>
+        <NamedIndividual IRI="#SA1"/>
+        <NamedIndividual IRI="#Library1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Check_Card"/>
+        <NamedIndividual IRI="#Secretary1"/>
+        <NamedIndividual IRI="#Card_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Check_Card"/>
+        <NamedIndividual IRI="#Secretary1"/>
+        <NamedIndividual IRI="#Card_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Check_Card"/>
+        <NamedIndividual IRI="#Secretary1"/>
+        <NamedIndividual IRI="#Card_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Work_in_Secretary"/>
+        <NamedIndividual IRI="#Secretary1"/>
+        <NamedIndividual IRI="#LA1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Work_in_Secretary"/>
+        <NamedIndividual IRI="#Secretary1"/>
+        <NamedIndividual IRI="#Office1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Work_in_Secretary"/>
+        <NamedIndividual IRI="#Secretary1"/>
+        <NamedIndividual IRI="#PC1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Work_in_Secretary"/>
+        <NamedIndividual IRI="#Secretary1"/>
+        <NamedIndividual IRI="#SA1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Are_Polite"/>
+        <NamedIndividual IRI="#Student1"/>
+        <NamedIndividual IRI="#Proff2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Owns"/>
+        <NamedIndividual IRI="#Student1"/>
+        <NamedIndividual IRI="#Card_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Owns"/>
+        <NamedIndividual IRI="#Student2"/>
+        <NamedIndividual IRI="#Card_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Are_Polite"/>
+        <NamedIndividual IRI="#Student3"/>
+        <NamedIndividual IRI="#Secretary1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Owns"/>
+        <NamedIndividual IRI="#Student3"/>
+        <NamedIndividual IRI="#Card_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#Are_Part_of"/>
+        <NamedIndividual IRI="#WC1"/>
+        <NamedIndividual IRI="#Library1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Available"/>
+        <NamedIndividual IRI="#Book1"/>
+        <Literal>Available</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Code"/>
+        <NamedIndividual IRI="#Book1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1560</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_Copies"/>
+        <NamedIndividual IRI="#Book1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Publishing_Year"/>
+        <NamedIndividual IRI="#Book1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Book1"/>
+        <Literal>The Myth of Hercules</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Writer"/>
+        <NamedIndividual IRI="#Book1"/>
+        <Literal>Panagopoulos Mitsos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Available"/>
+        <NamedIndividual IRI="#Book10"/>
+        <Literal>Not Available</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Code"/>
+        <NamedIndividual IRI="#Book10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1654</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_Copies"/>
+        <NamedIndividual IRI="#Book10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Publishing_Year"/>
+        <NamedIndividual IRI="#Book10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Book10"/>
+        <Literal>Some Things I Still Can&apos;t Tell You</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Writer"/>
+        <NamedIndividual IRI="#Book10"/>
+        <Literal>Misha Collins</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Available"/>
+        <NamedIndividual IRI="#Book2"/>
+        <Literal>Not Available</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Code"/>
+        <NamedIndividual IRI="#Book2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1274</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_Copies"/>
+        <NamedIndividual IRI="#Book2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Publishing_Year"/>
+        <NamedIndividual IRI="#Book2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1997</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Book2"/>
+        <Literal>Asterix and Obelix</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Writer"/>
+        <NamedIndividual IRI="#Book2"/>
+        <Literal>Rene Gosigni</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Available"/>
+        <NamedIndividual IRI="#Book3"/>
+        <Literal>Available</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Code"/>
+        <NamedIndividual IRI="#Book3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3222</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_Copies"/>
+        <NamedIndividual IRI="#Book3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Publishing_Year"/>
+        <NamedIndividual IRI="#Book3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1990</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Book3"/>
+        <Literal>Ancient Greek Grammar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Writer"/>
+        <NamedIndividual IRI="#Book3"/>
+        <Literal>Ntina Kalogeri</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Available"/>
+        <NamedIndividual IRI="#Book4"/>
+        <Literal>Not Available</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Code"/>
+        <NamedIndividual IRI="#Book4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">8554</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_Copies"/>
+        <NamedIndividual IRI="#Book4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Publishing_Year"/>
+        <NamedIndividual IRI="#Book4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Book4"/>
+        <Literal>All about DNA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Writer"/>
+        <NamedIndividual IRI="#Book4"/>
+        <Literal>Savvas Amorginos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Available"/>
+        <NamedIndividual IRI="#Book5"/>
+        <Literal>Available</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Code"/>
+        <NamedIndividual IRI="#Book5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1269</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_Copies"/>
+        <NamedIndividual IRI="#Book5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Publishing_Year"/>
+        <NamedIndividual IRI="#Book5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1999</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Book5"/>
+        <Literal>Energy Zones of Electrons</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Writer"/>
+        <NamedIndividual IRI="#Book5"/>
+        <Literal>Ntakos Goerge</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Available"/>
+        <NamedIndividual IRI="#Book6"/>
+        <Literal>Not Available</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Code"/>
+        <NamedIndividual IRI="#Book6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7496</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_Copies"/>
+        <NamedIndividual IRI="#Book6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Publishing_Year"/>
+        <NamedIndividual IRI="#Book6"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Book6"/>
+        <Literal>Linear Algebra</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Writer"/>
+        <NamedIndividual IRI="#Book6"/>
+        <Literal>John Mousselis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Available"/>
+        <NamedIndividual IRI="#Book7"/>
+        <Literal>Available</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Code"/>
+        <NamedIndividual IRI="#Book7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1596</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_Copies"/>
+        <NamedIndividual IRI="#Book7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">7</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Publishing_Year"/>
+        <NamedIndividual IRI="#Book7"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2021</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Book7"/>
+        <Literal>Non Newtonian Fluids</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Writer"/>
+        <NamedIndividual IRI="#Book7"/>
+        <Literal>Panagiotis Syriopoulos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Available"/>
+        <NamedIndividual IRI="#Book8"/>
+        <Literal>Not Available</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Code"/>
+        <NamedIndividual IRI="#Book8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1236</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_Copies"/>
+        <NamedIndividual IRI="#Book8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">6</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Publishing_Year"/>
+        <NamedIndividual IRI="#Book8"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1988</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Book8"/>
+        <Literal>Psychology 1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Writer"/>
+        <NamedIndividual IRI="#Book8"/>
+        <Literal>Nikolia Balatsou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Available"/>
+        <NamedIndividual IRI="#Book9"/>
+        <Literal>Available</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Code"/>
+        <NamedIndividual IRI="#Book9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9875</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Number_of_Copies"/>
+        <NamedIndividual IRI="#Book9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">15</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Publishing_Year"/>
+        <NamedIndividual IRI="#Book9"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1961</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Title"/>
+        <NamedIndividual IRI="#Book9"/>
+        <Literal>The Hobbit</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Writer"/>
+        <NamedIndividual IRI="#Book9"/>
+        <Literal>JRR Tolkien</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Card_Number"/>
+        <NamedIndividual IRI="#Card_1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">5678</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Expire_Date"/>
+        <NamedIndividual IRI="#Card_1"/>
+        <Literal>2022-05-03T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Card_Number"/>
+        <NamedIndividual IRI="#Card_2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9101</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Expire_Date"/>
+        <NamedIndividual IRI="#Card_2"/>
+        <Literal>2025-08-12T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Card_Number"/>
+        <NamedIndividual IRI="#Card_3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1234</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Expire_Date"/>
+        <NamedIndividual IRI="#Card_3"/>
+        <Literal>2024-05-06T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Card_Number"/>
+        <NamedIndividual IRI="#Card_4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">3456</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Expire_Date"/>
+        <NamedIndividual IRI="#Card_4"/>
+        <Literal>2024-09-10T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Card_Number"/>
+        <NamedIndividual IRI="#Card_5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9357</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Expire_Date"/>
+        <NamedIndividual IRI="#Card_5"/>
+        <Literal>2022-11-01T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#Cleaner1"/>
+        <Literal>Ntakos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Cleaner1"/>
+        <Literal>George</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Work_Code"/>
+        <NamedIndividual IRI="#Cleaner1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacity"/>
+        <NamedIndividual IRI="#LA1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">30</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Library_Name"/>
+        <NamedIndividual IRI="#Library1"/>
+        <Literal>UPL</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Library_tel"/>
+        <NamedIndividual IRI="#Library1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2243048143</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacity"/>
+        <NamedIndividual IRI="#Office1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacity"/>
+        <NamedIndividual IRI="#PC1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">10</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID"/>
+        <NamedIndividual IRI="#Proff1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">015</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#Proff1"/>
+        <Literal>Tsataros</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Proff1"/>
+        <Literal>Nikos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID"/>
+        <NamedIndividual IRI="#Proff2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">9865</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#Proff2"/>
+        <Literal>Asimomitis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Proff2"/>
+        <Literal>Damianos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacity"/>
+        <NamedIndividual IRI="#SA1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">20</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#Secretary1"/>
+        <Literal>Skyrla</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Secretary1"/>
+        <Literal>Agathi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Work_Code"/>
+        <NamedIndividual IRI="#Secretary1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID"/>
+        <NamedIndividual IRI="#Student1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">001</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#Student1"/>
+        <Literal>Boulafentis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Student1"/>
+        <Literal>Theofilos</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID"/>
+        <NamedIndividual IRI="#Student2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#Student2"/>
+        <Literal>Michailou</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Student2"/>
+        <Literal>Kostas</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#ID"/>
+        <NamedIndividual IRI="#Student3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1485</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Last_Name"/>
+        <NamedIndividual IRI="#Student3"/>
+        <Literal>Panakis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Name"/>
+        <NamedIndividual IRI="#Student3"/>
+        <Literal>Sofoklis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#Capacity"/>
+        <NamedIndividual IRI="#WC1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">4</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Are_Part_of"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Are_Polite"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Check_Card"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Dont_Work_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_Less_Copies"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Has_More_Copies"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Lent_to"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Owns"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Person_Is"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Positioned_in"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Work_in_Cleaner"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#Work_in_Secretary"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#Are_Polite"/>
+        <ObjectProperty IRI="#Are_Polite"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Belongs_to"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Dont_Work_in"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Person_Is"/>
+    </FunctionalObjectProperty>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#Positioned_in"/>
+    </FunctionalObjectProperty>
+    <InverseFunctionalObjectProperty>
+        <ObjectProperty IRI="#Are_Polite"/>
+    </InverseFunctionalObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#Lent_to"/>
+    </SymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Are_Part_of"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Work_in_Cleaner"/>
+    </AsymmetricObjectProperty>
+    <AsymmetricObjectProperty>
+        <ObjectProperty IRI="#Work_in_Secretary"/>
+    </AsymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Check_Card"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Has_Less_Copies"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Has_More_Copies"/>
+    </TransitiveObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty IRI="#Owns"/>
+    </TransitiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Are_Part_of"/>
+        <Class IRI="#Library_Area"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Are_Part_of"/>
+        <Class IRI="#Offices"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Are_Part_of"/>
+        <Class IRI="#PC_Area"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Are_Part_of"/>
+        <Class IRI="#Study_Area"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Are_Part_of"/>
+        <Class IRI="#Toilets"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Are_Polite"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <Class IRI="#Card"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Check_Card"/>
+        <Class IRI="#Secretary"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Dont_Work_in"/>
+        <Class IRI="#Secretary"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has_Less_Copies"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Has_More_Copies"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Lent_to"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Owns"/>
+        <Class IRI="#Visitors"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Person_Is"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Positioned_in"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Work_in_Cleaner"/>
+        <Class IRI="#Cleaner"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#Work_in_Secretary"/>
+        <Class IRI="#Secretary"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Are_Part_of"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Are_Polite"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Belongs_to"/>
+        <Class IRI="#Visitors"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Check_Card"/>
+        <Class IRI="#Card"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Dont_Work_in"/>
+        <Class IRI="#Toilets"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has_Less_Copies"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Has_More_Copies"/>
+        <Class IRI="#Book"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Lent_to"/>
+        <Class IRI="#Card"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Owns"/>
+        <Class IRI="#Card"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Person_Is"/>
+        <Class IRI="#People"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Positioned_in"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Work_in_Cleaner"/>
+        <Class IRI="#Library"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Work_in_Secretary"/>
+        <Class IRI="#Library_Area"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Work_in_Secretary"/>
+        <Class IRI="#Offices"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#Work_in_Secretary"/>
+        <Class IRI="#PC_Area"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Available"/>
+        <DataProperty IRI="#Book_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Book_Info"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Capacity"/>
+        <DataProperty IRI="#Library_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Card_Info"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Card_Number"/>
+        <DataProperty IRI="#Card_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Code"/>
+        <DataProperty IRI="#Book_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Expire_Date"/>
+        <DataProperty IRI="#Card_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#ID"/>
+        <DataProperty IRI="#Visitors_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Last_Name"/>
+        <DataProperty IRI="#Staff_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Last_Name"/>
+        <DataProperty IRI="#Visitors_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Library_Info"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Library_Name"/>
+        <DataProperty IRI="#Library_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Library_tel"/>
+        <DataProperty IRI="#Library_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Name"/>
+        <DataProperty IRI="#Staff_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Name"/>
+        <DataProperty IRI="#Visitors_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Number_of_Copies"/>
+        <DataProperty IRI="#Book_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Personal_Info"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Publishing_Year"/>
+        <DataProperty IRI="#Book_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Staff_Info"/>
+        <DataProperty IRI="#Personal_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Title"/>
+        <DataProperty IRI="#Book_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Visitors_Info"/>
+        <DataProperty IRI="#Personal_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Work_Code"/>
+        <DataProperty IRI="#Staff_Info"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Writer"/>
+        <DataProperty IRI="#Book_Info"/>
+    </SubDataPropertyOf>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Available"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Card_Number"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Code"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Expire_Date"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#ID"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Last_Name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Name"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Number_of_Copies"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Publishing_Year"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Work_Code"/>
+    </FunctionalDataProperty>
+    <FunctionalDataProperty>
+        <DataProperty IRI="#Writer"/>
+    </FunctionalDataProperty>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Available"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Book_Info"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Capacity"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Card_Info"/>
+        <Class IRI="#Card"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Card_Number"/>
+        <Class IRI="#Card"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Code"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Expire_Date"/>
+        <Class IRI="#Card"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#ID"/>
+        <Class IRI="#Students"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Last_Name"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Library_Info"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Library_Name"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Library_tel"/>
+        <Class IRI="#Library"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Name"/>
+        <Class IRI="#Students"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Number_of_Copies"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Personal_Info"/>
+        <Class IRI="#People"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Publishing_Year"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Title"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Work_Code"/>
+        <Class IRI="#Staff"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Writer"/>
+        <Class IRI="#Book"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Available"/>
+        <DataOneOf>
+            <Literal>Available</Literal>
+            <Literal>Not Available</Literal>
+        </DataOneOf>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Capacity"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Card_Number"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Code"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Expire_Date"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#ID"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Last_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Library_Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Library_tel"/>
+        <Datatype abbreviatedIRI="xsd:long"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Number_of_Copies"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Publishing_Year"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Work_Code"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#Writer"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
